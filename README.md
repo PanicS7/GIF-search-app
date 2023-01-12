@@ -9,7 +9,7 @@ You will need API key to start this app, to get free key and add it to project f
 - Go to [giphy](https://developers.giphy.com/)
 - Register account
 - Got to your profile/dashboard
-- Click at "Create new project" - this will just create free key for you to use
+- Click at "Create an App" - this will just create free key for you to use
 - Copy key
 - Navigate to folder of this app
 - Find file named "apiKey.js" and open it
