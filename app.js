@@ -41,7 +41,14 @@ function fetchData() {
 
       // clear prev results if exist
       container.innerHTML = "";
-      
+
+      // add title with searched data
+      let title = document.createElement("h2");
+      title.innerHTML = `Searched query: <span>${input.value}</span>`;
+      title.className = "title";
+      // append title to screen
+      container.appendChild(title);
+
       // reset input to blank
       input.value = "";
 
@@ -50,6 +57,8 @@ function fetchData() {
         // create img element
         let imgElem = document.createElement("img");
         imgElem.src = data.images.original.url;
+        // add class for styling
+        imgElem.className = "gifImg";
 
         // append img element to screen
         container.appendChild(imgElem);

@@ -5,8 +5,53 @@
   box-sizing: border-box;
 }
 
-img {
+body {
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: rgb(51, 64, 247);
+  color: #fff;
+  align-items: center;
+}
+
+#searchInput {
+  padding: 0.5em 1em;
+}
+
+#searchBtn {
+  background-color: rgb(18, 94, 7);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border:1px solid rgb(18, 94, 7);
+  border-radius: 5%;
+  margin-left: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+.title > span {
+  color: #f00;
+}
+
+.gifImg {
   width: 300px;
   height: 300px;
-  
+  border: 2px solid black;
 }
